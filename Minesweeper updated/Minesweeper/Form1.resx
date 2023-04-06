@@ -1,0 +1,2800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="splitContainer1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20pt</value>
+  </data>
+  <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 459</value>
+  </data>
+  <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 46</value>
+  </data>
+  <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnExit.Text" xml:space="preserve">
+    <value>ВИХІД</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Name" xml:space="preserve">
+    <value>btnExit</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExit.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblBestSessionTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblBestSessionTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBestSessionTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblBestSessionTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 10.1999989pt, style=Bold</value>
+  </data>
+  <data name="lblBestSessionTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 193</value>
+  </data>
+  <data name="lblBestSessionTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="lblBestSessionTime.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblBestSessionTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblBestSessionTime.Name" xml:space="preserve">
+    <value>lblBestSessionTime</value>
+  </data>
+  <data name="&gt;&gt;lblBestSessionTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBestSessionTime.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblBestSessionTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSessionTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblSessionTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSessionTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblSessionTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Rubik, 10.1999989pt, style=Bold</value>
+  </data>
+  <data name="lblSessionTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 149</value>
+  </data>
+  <data name="lblSessionTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 20</value>
+  </data>
+  <data name="lblSessionTime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSessionTime.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSessionTime.Name" xml:space="preserve">
+    <value>lblSessionTime</value>
+  </data>
+  <data name="&gt;&gt;lblSessionTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSessionTime.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblSessionTime.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblCurrentTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCurrentTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblCurrentTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8pt, style=Bold</value>
+  </data>
+  <data name="lblCurrentTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 149</value>
+  </data>
+  <data name="lblCurrentTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="lblCurrentTime.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCurrentTime.Text" xml:space="preserve">
+    <value>Поточний час:</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentTime.Name" xml:space="preserve">
+    <value>lblCurrentTime</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentTime.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblCurrentTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblBestTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBestTime.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblBestTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8pt, style=Bold</value>
+  </data>
+  <data name="lblBestTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 192</value>
+  </data>
+  <data name="lblBestTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="lblBestTime.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblBestTime.Text" xml:space="preserve">
+    <value>Найкращий час:</value>
+  </data>
+  <data name="&gt;&gt;lblBestTime.Name" xml:space="preserve">
+    <value>lblBestTime</value>
+  </data>
+  <data name="&gt;&gt;lblBestTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBestTime.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblBestTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnNewSession.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnNewSession.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 41</value>
+  </data>
+  <data name="btnNewSession.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="btnNewSession.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 75</value>
+  </data>
+  <data name="btnNewSession.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnNewSession.Name" xml:space="preserve">
+    <value>btnNewSession</value>
+  </data>
+  <data name="&gt;&gt;btnNewSession.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNewSession.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnNewSession.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnChangeDefuseMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 453</value>
+  </data>
+  <data name="btnChangeDefuseMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnChangeDefuseMode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnChangeDefuseMode.Name" xml:space="preserve">
+    <value>btnChangeDefuseMode</value>
+  </data>
+  <data name="&gt;&gt;btnChangeDefuseMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChangeDefuseMode.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;btnChangeDefuseMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.Name" xml:space="preserve">
+    <value>btnGF77</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.Name" xml:space="preserve">
+    <value>btnGF76</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.Name" xml:space="preserve">
+    <value>btnGF75</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.Name" xml:space="preserve">
+    <value>btnGF74</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.Name" xml:space="preserve">
+    <value>btnGF73</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.Name" xml:space="preserve">
+    <value>btnGF72</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.Name" xml:space="preserve">
+    <value>btnGF71</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.Name" xml:space="preserve">
+    <value>btnGF70</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.Name" xml:space="preserve">
+    <value>btnGF67</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.Name" xml:space="preserve">
+    <value>btnGF66</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.Name" xml:space="preserve">
+    <value>btnGF65</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.Name" xml:space="preserve">
+    <value>btnGF64</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.Name" xml:space="preserve">
+    <value>btnGF63</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.Name" xml:space="preserve">
+    <value>btnGF62</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.Name" xml:space="preserve">
+    <value>btnGF61</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.Name" xml:space="preserve">
+    <value>btnGF60</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.Name" xml:space="preserve">
+    <value>btnGF57</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.Name" xml:space="preserve">
+    <value>btnGF56</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.Name" xml:space="preserve">
+    <value>btnGF55</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.Name" xml:space="preserve">
+    <value>btnGF54</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.Name" xml:space="preserve">
+    <value>btnGF53</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.Name" xml:space="preserve">
+    <value>btnGF52</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.Name" xml:space="preserve">
+    <value>btnGF51</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.Name" xml:space="preserve">
+    <value>btnGF50</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.Name" xml:space="preserve">
+    <value>btnGF47</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.Name" xml:space="preserve">
+    <value>btnGF46</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.Name" xml:space="preserve">
+    <value>btnGF45</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.Name" xml:space="preserve">
+    <value>btnGF44</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.Name" xml:space="preserve">
+    <value>btnGF43</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.Name" xml:space="preserve">
+    <value>btnGF42</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.Name" xml:space="preserve">
+    <value>btnGF41</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.Name" xml:space="preserve">
+    <value>btnGF40</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.Name" xml:space="preserve">
+    <value>btnGF37</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.Name" xml:space="preserve">
+    <value>btnGF36</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.Name" xml:space="preserve">
+    <value>btnGF35</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.Name" xml:space="preserve">
+    <value>btnGF34</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.Name" xml:space="preserve">
+    <value>btnGF33</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.Name" xml:space="preserve">
+    <value>btnGF32</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.Name" xml:space="preserve">
+    <value>btnGF31</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.Name" xml:space="preserve">
+    <value>btnGF30</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.Name" xml:space="preserve">
+    <value>btnGF27</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.Name" xml:space="preserve">
+    <value>btnGF26</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.Name" xml:space="preserve">
+    <value>btnGF25</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.Name" xml:space="preserve">
+    <value>btnGF24</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.Name" xml:space="preserve">
+    <value>btnGF23</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.Name" xml:space="preserve">
+    <value>btnGF22</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.Name" xml:space="preserve">
+    <value>btnGF21</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.Name" xml:space="preserve">
+    <value>btnGF20</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.Name" xml:space="preserve">
+    <value>btnGF17</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.Name" xml:space="preserve">
+    <value>btnGF16</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.Name" xml:space="preserve">
+    <value>btnGF15</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.Name" xml:space="preserve">
+    <value>btnGF14</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.Name" xml:space="preserve">
+    <value>btnGF13</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.Name" xml:space="preserve">
+    <value>btnGF12</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.Name" xml:space="preserve">
+    <value>btnGF11</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.Name" xml:space="preserve">
+    <value>btnGF10</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.Name" xml:space="preserve">
+    <value>btnGF07</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.Name" xml:space="preserve">
+    <value>btnGF06</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.Name" xml:space="preserve">
+    <value>btnGF05</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.Name" xml:space="preserve">
+    <value>btnGF04</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.Name" xml:space="preserve">
+    <value>btnGF03</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.Name" xml:space="preserve">
+    <value>btnGF02</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.Name" xml:space="preserve">
+    <value>btnGF01</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.Name" xml:space="preserve">
+    <value>btnGF00</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="GameField.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 22</value>
+  </data>
+  <data name="GameField.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="GameField.Size" type="System.Drawing.Size, System.Drawing">
+    <value>416, 416</value>
+  </data>
+  <data name="GameField.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GameField.Name" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;GameField.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GameField.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;GameField.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 508</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnGF77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 364</value>
+  </data>
+  <data name="btnGF77.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF77.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.Name" xml:space="preserve">
+    <value>btnGF77</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF77.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnGF76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 364</value>
+  </data>
+  <data name="btnGF76.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF76.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.Name" xml:space="preserve">
+    <value>btnGF76</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF76.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGF75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 364</value>
+  </data>
+  <data name="btnGF75.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF75.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.Name" xml:space="preserve">
+    <value>btnGF75</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF75.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnGF74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 364</value>
+  </data>
+  <data name="btnGF74.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF74.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.Name" xml:space="preserve">
+    <value>btnGF74</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF74.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnGF73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 364</value>
+  </data>
+  <data name="btnGF73.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF73.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.Name" xml:space="preserve">
+    <value>btnGF73</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF73.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnGF72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 364</value>
+  </data>
+  <data name="btnGF72.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF72.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.Name" xml:space="preserve">
+    <value>btnGF72</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF72.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnGF71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 364</value>
+  </data>
+  <data name="btnGF71.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF71.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF71.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.Name" xml:space="preserve">
+    <value>btnGF71</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF71.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnGF70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 364</value>
+  </data>
+  <data name="btnGF70.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF70.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.Name" xml:space="preserve">
+    <value>btnGF70</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF70.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnGF67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 312</value>
+  </data>
+  <data name="btnGF67.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF67.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.Name" xml:space="preserve">
+    <value>btnGF67</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF67.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnGF66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 312</value>
+  </data>
+  <data name="btnGF66.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF66.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.Name" xml:space="preserve">
+    <value>btnGF66</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF66.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btnGF65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 312</value>
+  </data>
+  <data name="btnGF65.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF65.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.Name" xml:space="preserve">
+    <value>btnGF65</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF65.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnGF64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 312</value>
+  </data>
+  <data name="btnGF64.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF64.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.Name" xml:space="preserve">
+    <value>btnGF64</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF64.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnGF63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 312</value>
+  </data>
+  <data name="btnGF63.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF63.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.Name" xml:space="preserve">
+    <value>btnGF63</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF63.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnGF62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 312</value>
+  </data>
+  <data name="btnGF62.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF62.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.Name" xml:space="preserve">
+    <value>btnGF62</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF62.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnGF61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 312</value>
+  </data>
+  <data name="btnGF61.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF61.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.Name" xml:space="preserve">
+    <value>btnGF61</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF61.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnGF60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 312</value>
+  </data>
+  <data name="btnGF60.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF60.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.Name" xml:space="preserve">
+    <value>btnGF60</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF60.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="btnGF57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 260</value>
+  </data>
+  <data name="btnGF57.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF57.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.Name" xml:space="preserve">
+    <value>btnGF57</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF57.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="btnGF56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 260</value>
+  </data>
+  <data name="btnGF56.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF56.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.Name" xml:space="preserve">
+    <value>btnGF56</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF56.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="btnGF55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 260</value>
+  </data>
+  <data name="btnGF55.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF55.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.Name" xml:space="preserve">
+    <value>btnGF55</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF55.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnGF54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 260</value>
+  </data>
+  <data name="btnGF54.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF54.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.Name" xml:space="preserve">
+    <value>btnGF54</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF54.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnGF53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 260</value>
+  </data>
+  <data name="btnGF53.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF53.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF53.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.Name" xml:space="preserve">
+    <value>btnGF53</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF53.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnGF52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 260</value>
+  </data>
+  <data name="btnGF52.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF52.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF52.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.Name" xml:space="preserve">
+    <value>btnGF52</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF52.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="btnGF51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 260</value>
+  </data>
+  <data name="btnGF51.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF51.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.Name" xml:space="preserve">
+    <value>btnGF51</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF51.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnGF50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 260</value>
+  </data>
+  <data name="btnGF50.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF50.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.Name" xml:space="preserve">
+    <value>btnGF50</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF50.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnGF47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 208</value>
+  </data>
+  <data name="btnGF47.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF47.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.Name" xml:space="preserve">
+    <value>btnGF47</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF47.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="btnGF46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 208</value>
+  </data>
+  <data name="btnGF46.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF46.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.Name" xml:space="preserve">
+    <value>btnGF46</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF46.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="btnGF45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 208</value>
+  </data>
+  <data name="btnGF45.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF45.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.Name" xml:space="preserve">
+    <value>btnGF45</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF45.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="btnGF44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 208</value>
+  </data>
+  <data name="btnGF44.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF44.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.Name" xml:space="preserve">
+    <value>btnGF44</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF44.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="btnGF43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 208</value>
+  </data>
+  <data name="btnGF43.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF43.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.Name" xml:space="preserve">
+    <value>btnGF43</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF43.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="btnGF42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 208</value>
+  </data>
+  <data name="btnGF42.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF42.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.Name" xml:space="preserve">
+    <value>btnGF42</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF42.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="btnGF41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 208</value>
+  </data>
+  <data name="btnGF41.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF41.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.Name" xml:space="preserve">
+    <value>btnGF41</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF41.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="btnGF40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 208</value>
+  </data>
+  <data name="btnGF40.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF40.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.Name" xml:space="preserve">
+    <value>btnGF40</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF40.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="btnGF37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 156</value>
+  </data>
+  <data name="btnGF37.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF37.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.Name" xml:space="preserve">
+    <value>btnGF37</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF37.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="btnGF36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 156</value>
+  </data>
+  <data name="btnGF36.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF36.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.Name" xml:space="preserve">
+    <value>btnGF36</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF36.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="btnGF35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 156</value>
+  </data>
+  <data name="btnGF35.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF35.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.Name" xml:space="preserve">
+    <value>btnGF35</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF35.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="btnGF34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 156</value>
+  </data>
+  <data name="btnGF34.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF34.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.Name" xml:space="preserve">
+    <value>btnGF34</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF34.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="btnGF33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 156</value>
+  </data>
+  <data name="btnGF33.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF33.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.Name" xml:space="preserve">
+    <value>btnGF33</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF33.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="btnGF32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 156</value>
+  </data>
+  <data name="btnGF32.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF32.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.Name" xml:space="preserve">
+    <value>btnGF32</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF32.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="btnGF31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 156</value>
+  </data>
+  <data name="btnGF31.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF31.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.Name" xml:space="preserve">
+    <value>btnGF31</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF31.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="btnGF30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 156</value>
+  </data>
+  <data name="btnGF30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF30.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.Name" xml:space="preserve">
+    <value>btnGF30</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF30.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="btnGF27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 104</value>
+  </data>
+  <data name="btnGF27.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF27.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.Name" xml:space="preserve">
+    <value>btnGF27</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF27.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="btnGF26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 104</value>
+  </data>
+  <data name="btnGF26.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF26.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.Name" xml:space="preserve">
+    <value>btnGF26</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF26.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="btnGF25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 104</value>
+  </data>
+  <data name="btnGF25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF25.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.Name" xml:space="preserve">
+    <value>btnGF25</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF25.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="btnGF24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 104</value>
+  </data>
+  <data name="btnGF24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF24.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.Name" xml:space="preserve">
+    <value>btnGF24</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF24.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="btnGF23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 104</value>
+  </data>
+  <data name="btnGF23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF23.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.Name" xml:space="preserve">
+    <value>btnGF23</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF23.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="btnGF22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 104</value>
+  </data>
+  <data name="btnGF22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF22.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.Name" xml:space="preserve">
+    <value>btnGF22</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF22.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="btnGF21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 104</value>
+  </data>
+  <data name="btnGF21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF21.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.Name" xml:space="preserve">
+    <value>btnGF21</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF21.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="btnGF20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 104</value>
+  </data>
+  <data name="btnGF20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF20.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.Name" xml:space="preserve">
+    <value>btnGF20</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF20.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="btnGF17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 52</value>
+  </data>
+  <data name="btnGF17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF17.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.Name" xml:space="preserve">
+    <value>btnGF17</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF17.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="btnGF16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 52</value>
+  </data>
+  <data name="btnGF16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF16.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.Name" xml:space="preserve">
+    <value>btnGF16</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF16.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="btnGF15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 52</value>
+  </data>
+  <data name="btnGF15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF15.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.Name" xml:space="preserve">
+    <value>btnGF15</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF15.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="btnGF14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 52</value>
+  </data>
+  <data name="btnGF14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF14.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.Name" xml:space="preserve">
+    <value>btnGF14</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF14.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="btnGF13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 52</value>
+  </data>
+  <data name="btnGF13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF13.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.Name" xml:space="preserve">
+    <value>btnGF13</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF13.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="btnGF12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 52</value>
+  </data>
+  <data name="btnGF12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF12.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.Name" xml:space="preserve">
+    <value>btnGF12</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF12.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="btnGF11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF11.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.Name" xml:space="preserve">
+    <value>btnGF11</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF11.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="btnGF10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="btnGF10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF10.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.Name" xml:space="preserve">
+    <value>btnGF10</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF10.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="btnGF07.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 0</value>
+  </data>
+  <data name="btnGF07.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF07.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF07.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.Name" xml:space="preserve">
+    <value>btnGF07</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF07.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="btnGF06.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 0</value>
+  </data>
+  <data name="btnGF06.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF06.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF06.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.Name" xml:space="preserve">
+    <value>btnGF06</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF06.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="btnGF05.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 0</value>
+  </data>
+  <data name="btnGF05.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF05.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF05.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.Name" xml:space="preserve">
+    <value>btnGF05</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF05.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="btnGF04.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 0</value>
+  </data>
+  <data name="btnGF04.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF04.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF04.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.Name" xml:space="preserve">
+    <value>btnGF04</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF04.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="btnGF03.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 0</value>
+  </data>
+  <data name="btnGF03.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF03.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF03.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.Name" xml:space="preserve">
+    <value>btnGF03</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF03.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="btnGF02.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 0</value>
+  </data>
+  <data name="btnGF02.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF02.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF02.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.Name" xml:space="preserve">
+    <value>btnGF02</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF02.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="btnGF01.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 0</value>
+  </data>
+  <data name="btnGF01.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF01.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF01.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.Name" xml:space="preserve">
+    <value>btnGF01</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF01.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="btnGF00.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnGF00.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnGF00.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 52</value>
+  </data>
+  <data name="btnGF00.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.Name" xml:space="preserve">
+    <value>btnGF00</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.Parent" xml:space="preserve">
+    <value>GameField</value>
+  </data>
+  <data name="&gt;&gt;btnGF00.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 497</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Вихід</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>20, 0</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>664, 532</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAAAACAAEAAQDyAwAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAA7lJ
+        REFUeJzt3cFtwzAQAEEqUFvuvyynh5yAi7Azf8lMGC/4Oeb6fD7fM3MNn2dmun9T9n/XaP9/nloF8D4C
+        AGECAGECAGECAGECAGECAGECAGECAGECAGECAGECAGECAGECAGECAGH3A+9wnwD83ep9Dk4AECYAECYA
+        ECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAEHaf+Tz+dJ7ZfQK82eo8/xn+/TsBQJgA
+        QJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQNj9wDvq9wlsz4Nv2/75375/q/dZ
+        OAFAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABAmABA2BP3AUxtz3Nvz4Mzs71/
+        q/P8U04AECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYA
+        ECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYA
+        ECYAECYAECYAECYAECYAECYAECYAECYAEHafc77bi4AXe/X3xwkAwgQAwgQAwgQAwgQAwgQAwgQAwgQA
+        wgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQAwgQA
+        wgQAwgQAwgQAwu5zzrW9iKFX/392Xu/V3x8nAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgT
+        AAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgT
+        AAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAgTAAi7txdwzvkuf/41fH57
+        /XXb+zd9frr+EScACBMACBMACBMACBMACBMACBMACBMACBMACBMACBMACBMACBMACBMACBMACHviPoDt
+        efjVeep/8Pn13/9U+j4BJwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAIEwAI
+        u495cph49X0CTgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQJgAQdj/wDvP8
+        8Her9wk4AUCYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAECYAEDYL94CIcbNN7EP
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Сапер</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MineSweeper</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

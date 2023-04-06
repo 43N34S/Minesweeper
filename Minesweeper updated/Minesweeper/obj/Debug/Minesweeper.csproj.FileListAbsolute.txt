@@ -1,0 +1,50 @@
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\bin\Debug\Minesweeper.exe
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\bin\Debug\Minesweeper.pdb
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.MineSweeper.resources
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Users\Spike\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.pdb
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\bin\Debug\p.exe.config
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\bin\Debug\p.exe
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\bin\Debug\p.pdb
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.MineSweeper.resources
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\p.exe
+C:\Users\Ded\Desktop\Intensive\GameSnake\Minesweeper\Minesweeper\obj\Debug\p.pdb
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\bin\Debug\p.exe.config
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\bin\Debug\p.exe
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\bin\Debug\p.pdb
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\Minesweeper.MineSweeper.resources
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\p.exe
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\p.pdb
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\bin\Debug\aa\p.resources.dll
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\Minesweeper.MineSweeper.aa.resources
+C:\Users\Ded\Desktop\Intensive\Minesweeper\Minesweeper\obj\Debug\aa\p.resources.dll
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\bin\Debug\p.exe.config
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\bin\Debug\p.exe
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\bin\Debug\p.pdb
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\bin\Debug\aa\p.resources.dll
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\Minesweeper.csproj.AssemblyReference.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\Minesweeper.csproj.SuggestedBindingRedirects.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\Minesweeper.MineSweeper.resources
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\Minesweeper.MineSweeper.aa.resources
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\aa\p.resources.dll
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\p.exe
+C:\Users\Ded\Desktop\Intensive\Minesweeper updated\Minesweeper\obj\Debug\p.pdb
