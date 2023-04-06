@@ -156,7 +156,12 @@ namespace Minesweeper
                 {
                     if (!GameFieldKnownCells[SenderX, SenderY])
                     {
-                        switch(GameFieldLogic[SenderX, SenderY])
+                        if (GameFieldFlaggedCells[SenderX, SenderY])
+                        {
+                            SessionDisplayAmountOfMines++;
+                            GameFieldFlaggedCells[SenderX, SenderY] = false;
+                        }
+                        switch (GameFieldLogic[SenderX, SenderY])
                         {
                             case GameLogicElements.Empty:
                                 GameFieldKnownCells[SenderX, SenderY] = true;
@@ -263,7 +268,11 @@ namespace Minesweeper
                     {
                         if (GameFieldKnownCells[X, Y] == false)
                         {
-                            GameFieldFlaggedCells[X, Y] = false;
+                            if (GameFieldFlaggedCells[X, Y])
+                            {
+                                SessionDisplayAmountOfMines++;
+                                GameFieldFlaggedCells[X, Y] = false;
+                            }
                             GameFieldKnownCells[X, Y] = true;
                             CheckNeigbouringCells(X, Y);
                             Form.Render();
